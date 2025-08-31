@@ -22,7 +22,7 @@ const CreateCommunitySection = () => {
 
   const categories = [
     "Sports & Fitness",
-    "Arts & Creativity", 
+    "Arts & Creativity",
     "Technology",
     "Food & Dining",
     "Outdoor & Adventure",
@@ -117,7 +117,7 @@ const CreateCommunitySection = () => {
             Start a new community and bring people together around shared interests
           </CardDescription>
         </CardHeader>
-        
+
         <CardContent className="pt-6">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -136,7 +136,7 @@ const CreateCommunitySection = () => {
                   required
                 />
               </div>
-              
+
               <div className="space-y-2">
                 <Label htmlFor="category" className="text-sm font-medium flex items-center">
                   <Tag className="h-4 w-4 mr-2 text-primary" />
@@ -172,7 +172,7 @@ const CreateCommunitySection = () => {
                   className="border-border focus:ring-primary"
                 />
               </div>
-              
+
               <div className="space-y-2">
                 <Label htmlFor="expectedMembers" className="text-sm font-medium">
                   Expected Members
@@ -187,7 +187,7 @@ const CreateCommunitySection = () => {
                 />
               </div>
             </div>
-            
+
             <div className="space-y-2">
               <Label htmlFor="description" className="text-sm font-medium flex items-center">
                 <FileText className="h-4 w-4 mr-2 text-primary" />
@@ -202,7 +202,7 @@ const CreateCommunitySection = () => {
                 required
               />
             </div>
-            
+
             <div className="space-y-2">
               <Label htmlFor="rules" className="text-sm font-medium">
                 Community Guidelines (Optional)
@@ -215,19 +215,16 @@ const CreateCommunitySection = () => {
                 className="border-border focus:ring-primary min-h-[80px]"
               />
             </div>
-            
+
             <div className="border-t border-border/30 pt-6 -mx-6 px-6">
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 className="w-full bg-gradient-primary hover:shadow-elegant transition-all duration-300 shadow-soft"
                 size="lg"
               >
                 <Plus className="mr-2 h-4 w-4" />
                 Create Community
               </Button>
-              <p className="text-xs text-muted-foreground text-center mt-3">
-                * Demo mode - community won't be saved without backend integration
-              </p>
             </div>
           </form>
         </CardContent>
