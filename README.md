@@ -225,6 +225,9 @@ Authorization: Bearer <token>
 ## 🧑‍💻 Contributors
 
 👨‍💻 *Dev Bora*
+👨‍💻 *Piyush Varma*
+👨‍💻 *Vibhav S chaudhary*
+👨‍💻 *Sameehan Trivedi*
 
 ---
 
